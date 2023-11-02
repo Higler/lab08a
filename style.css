@@ -41,13 +41,14 @@ h2{
     display: flex;
     justify-content: right;
     flex-direction: column;
-    height: 480px;
-    width: 400px;
+    height: 400px;
+    width: 400px;    
+}
+.right-content article{
     overflow-y: auto;
 }
-
-.button {
-    background-color: #686969;
+button {
+    background-color: #0f0f0f;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -55,8 +56,8 @@ h2{
     transition: background-color 350ms, color 350ms; 
   }  
  
-  .button:hover {
-    background-color: #171718;
+  button:hover {
+    background-color: #838386;
     color: #fcfbfb;
   }  
 
