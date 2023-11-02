@@ -1,0 +1,66 @@
+.deckstacked{
+    flex-direction: stacked;
+}
+.row1{
+    display: flex;
+    background: rgb(54, 54, 54);
+    color: lightgrey;
+    flex-direction: row;
+    justify-content: center;
+}
+.row1 .nav{
+    margin: 20px;
+    text-align: center;
+    gap: 30px;
+}
+.row2{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.row3{
+    display:flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px;
+    gap: 30px;
+    justify-content: center;
+}
+h2{
+    font-weight: bold;
+    font-size: x-large;
+}
+.row4{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.right-content{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    height: 480px;
+    width: 400px;
+    overflow-y: auto;
+}
+
+.button {
+    background-color: #686969;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 350ms, color 350ms; 
+  }  
+ 
+  .button:hover {
+    background-color: #171718;
+    color: #fcfbfb;
+  }  
+
+.row5{
+    background:  rgb(54, 54, 54);
+    height: 100px;
+} 
